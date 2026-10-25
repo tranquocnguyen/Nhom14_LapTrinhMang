@@ -105,6 +105,9 @@ Không suy ra tỷ lệ đóng góp đã hoàn thành là 25% chỉ từ bảng 
 
 ### Ranh giới trong các file dùng chung
 
+Hai file tích hợp là `client/SyncClient.java` và `server/ClientHandler.java`;
+phân chia theo hàm bên dưới, không gán toàn bộ cả hai file cho một thành viên.
+
 | File/hàm | Người chủ trì phần việc | Phối hợp bắt buộc |
 |---|---|---|
 | `SyncClient.connect`, `disconnect`, `isConnected`; khung chạy bất đồng bộ và kết thúc phiên trong `sync`/`syncBlocking` | Nguyễn | Trực kiểm tra trạng thái UI; Thái kiểm tra handshake/luồng đọc ghi |

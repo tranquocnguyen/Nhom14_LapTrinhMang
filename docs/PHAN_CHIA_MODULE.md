@@ -2,6 +2,11 @@
 
 ## Cơ sở và giới hạn
 
+Nhóm trưởng là **Bùi Nhật Quỳnh Hương — 2380600941**, theo thông tin người dùng
+đính chính. Trần Quốc Nguyễn là thành viên và chủ tài khoản repository hiện tại;
+vai trò chủ repository không đồng nghĩa với nhóm trưởng. Phân công kỹ thuật dưới
+đây là đề xuất, cần nhóm trưởng và các thành viên thống nhất.
+
 Đối chiếu toàn bộ danh sách file trong `src`, các import, các điểm xử lý trong
 `SyncClient`/`ClientHandler`, và bảng thành viên của `BAO_CAO_DO_AN.md` tại máy.
 Đây là **phân công đề xuất cho công việc tiếp theo trên mã đã có**, không khẳng định
@@ -63,3 +68,23 @@ Không nhập lần lượt những mảnh code đang phụ thuộc vòng rồi 
 độc lập. Trước khi nhập bản nền đã có, nhóm cần thống nhất với giảng viên cách ghi
 nhận nguồn gốc bản nền; README phải phân biệt bản nền và thay đổi mới. Kế hoạch này
 không tự khắc phục được yêu cầu tạo Issue trước code đối với mã viết trước đây.
+
+## Bản thầy tải về phải là một project hoàn chỉnh
+
+Giữ duy nhất `pom.xml` ở gốc và các package trong `src/main/java`; các phần việc
+được tích hợp về cùng `main`. Không tạo bốn thư mục bài nộp riêng cho bốn người.
+Commit là đơn vị ghi nhận thay đổi; bản tải về là toàn bộ cây file tại một commit,
+không phải một mảnh riêng tương ứng từng commit.
+
+Trước khi chốt bản nộp cần kiểm tra từ clone sạch, không dùng `target` có sẵn:
+
+1. Có đủ model/protocol/util/engine/client/server/gui và tài nguyên cần thiết.
+2. Có hướng dẫn tái tạo chứng chỉ lab, không phụ thuộc khóa riêng trên máy tác giả.
+3. `mvn clean test-compile` biên dịch được; chạy trực tiếp TestRunner và kiểm tra exit code.
+4. `mvn exec:java` mở ứng dụng; kiểm tra kết nối, đồng bộ, conflict và resume thật.
+5. README ghi rõ JDK, Maven, lệnh chạy và ảnh minh chứng thực tế.
+
+Chỉ tạo tag/bản nộp sau khi các PR được review và các bước trên đạt. Chia commit
+theo chức năng giúp review, nhưng không chứng minh có nhiều người thực hiện và
+không bảo đảm miễn chế tài Big Bang trong DOCX. Với mã đã hoàn thiện trước khi có
+Issue, cần thống nhất cách nhập bản nền minh bạch với giảng viên.

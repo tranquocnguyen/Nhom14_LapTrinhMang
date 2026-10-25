@@ -1,7 +1,8 @@
 # Đồng bộ tệp tin Client–Server — Nhóm 14
 
 Học phần Lập trình mạng, lớp **23DTHB1**.
-Nhóm trưởng: **Trần Quốc Nguyễn — 2380601506**.
+Nhóm trưởng: **Bùi Nhật Quỳnh Hương — 2380600941**.
+Thành viên phụ trách tài khoản repository hiện tại: **Trần Quốc Nguyễn — 2380601506**.
 
 ## Trạng thái thực tế
 

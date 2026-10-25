@@ -16,7 +16,7 @@ báo cáo cũ là đầu vào lập kế hoạch, không thay thế lịch sử 
 
 | MSSV | Họ và tên | Công việc đã thực hiện | Merge Requests / Pull Requests |
 |---|---|---|---|
-| 2380601506 | Trần Quốc Nguyễn | Đang chuẩn hóa quy trình và phân chia module theo Issue #1; chưa merge | Chưa có PR được merge |
+| 2380601506 | Trần Quốc Nguyễn | Chuẩn hóa quy trình và phân chia module theo Issue #1; đang chờ review, chưa merge | [#2 — draft](https://github.com/tranquocnguyen/Nhom14_LapTrinhMang/pull/2) |
 | 2380600941 | Bùi Nhật Quỳnh Hương | Chưa đối chiếu bằng PR | Chưa có |
 | 2380602014 | Lý Quốc Thái | Chưa đối chiếu bằng PR | Chưa có |
 | 2380602385 | Nguyễn Trung Trực | Chưa đối chiếu bằng PR | Chưa có |

@@ -1,0 +1,35 @@
+# Java / Maven / IDE
+target/
+bin/
+build/
+out/
+node_modules/
+.idea/
+.vscode/
+nbproject/private/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.7z
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+# Local data and test fixtures generated at runtime
+/client_data/
+/server_data/
+/test_env/
+/ssl/
+# Private credentials and generated TLS material (regenerate locally)
+*.keystore
+*.truststore
+*.p12
+*.pfx
+*.key
+generated-server.cer
+.env
+.env.*
+!.env.example
